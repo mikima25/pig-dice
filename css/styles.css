@@ -1,0 +1,11 @@
+body {
+    background-color: #6c98a8;
+}
+.container2 {
+    background-image: url("../img/dice.jpg");
+    height: 200px;
+    color: white;
+}
+h1, h2 {
+    text-align: center;
+}
