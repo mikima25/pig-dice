@@ -1,20 +1,40 @@
+html {
+    background-color: #c3ccaa;
+}
 body {
-    background-color: #6c98a8;
-}
-.container2 {
-    background-image: url("../img/dice.jpg");
-    height: 200px;
-    color: white;
-}
-h1, h2 {
-    text-align: center;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
 }
 
-#die-face1 {
-    padding-top: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+h3 {
+  font-family: 'Fredericka the Great', sans-serif;
+  color: #337ab7;
 }
-#btnRoll {
-    margin-top: : 50px;
+
+.navbar h3 {
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+  padding-left: 15px;
+}
+  @media screen and (max-width: 320px) {
+    .navbar h3 {
+      font-size: 35px;
+    }
+  }
+.col-xs-4 {
+  text-align: center;
+}
+
+.game {
+  display: none;
+}
+
+
+ul {
+    list-style-type:circle;
+
+}
+li {
+    padding: 10px;
 }
